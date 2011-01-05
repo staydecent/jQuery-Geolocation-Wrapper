@@ -11,7 +11,7 @@
 
 (function( $ ) {
 
-    $.fn.geolocation = function( options, success, error ) {
+    $.fn.geolocation = function( options, success ) {
 
         var settings = {
             'error-element' : '#error_message',
